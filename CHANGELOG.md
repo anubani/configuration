@@ -1,3 +1,7 @@
+- Role edx_django_service
+  - Added maintenance page under the flag NGINX_EDXAPP_ENABLE_S3_MAINTENANCE.
+  - Added the s3_maintenance.j2 file to point to the s3 maintenance page.
+
 - Role: xqueue
   - Added `XQUEUE_SESSION_ENGINE` to allow a configurable xqueue session engine.
   - Added `XQUEUE_CACHES` to allow a configurable xqueue cache.
